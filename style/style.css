@@ -82,7 +82,7 @@ header {
 
 /*ГЛАВНОЕ МЕНЮ*/
 .bottom-header-container div {
-    margin: 10px 0px;
+    margin: 10px 0;
     border-right: 1px solid white;
     width: 250px;
     display: flex;
@@ -166,8 +166,9 @@ header {
 }
 
 .middle-main-container {
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
+}
 
 .navigation-bread-crumbs {
     display: flex;
